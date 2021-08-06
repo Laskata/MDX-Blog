@@ -1,6 +1,6 @@
 import { Link } from 'gatsby'
 import { FiInfo } from 'react-icons/fi'
-import { Counter, LikeButton } from '../components/Complete'
+import { Counter, LikeButton, RegVideo, Video } from '../components/Complete'
 
 <section className="mdx-page">
 
@@ -60,6 +60,42 @@ const LikeButton = () => {
 </div>
 
 <LikeButton />
+
+<h2>video components</h2>
+<RegVideo />
+<Video />
+<h2>regular heading</h2>
+<h2 title="true">title heading</h2>
+<h4>inline code</h4>
+
+`console.log('hello there')`
+
+<h4> blockquote` element </h4>
+
+<blockquote display="default">
+  Synth irony edison bulb +1, pug selfies put a bird on it man braid vinyl
+  sartorial dreamcatcher waistcoat succulents bespoke.
+</blockquote>
+
+<blockquote display="info">
+  Synth irony edison bulb +1, pug selfies put a bird on it man braid vinyl
+  sartorial dreamcatcher waistcoat succulents bespoke.
+</blockquote>
+
+<blockquote display="warning">
+  Synth irony edison bulb +1, pug selfies put a bird on it man braid vinyl
+  sartorial dreamcatcher waistcoat succulents bespoke.
+</blockquote>
+
+<blockquote>
+  Synth irony edison bulb +1, pug selfies put a bird on it man braid vinyl
+  sartorial dreamcatcher waistcoat succulents bespoke. Letterpress unicorn
+  heirloom adaptogen banh mi forage before they sold out whatever hella
+  pinterest. Cold-pressed jianbing heirloom chillwave, dreamcatcher poke pabst.
+  Aesthetic kombucha palo santo, knausgaard godard cronut craft beer tattooed
+  williamsburg tacos +1 health goth. Try-hard la croix street art put a bird on
+  it, austin locavore man bun tacos
+</blockquote>
 
 <Link to="/posts" className="btn center-btn">
   all posts
